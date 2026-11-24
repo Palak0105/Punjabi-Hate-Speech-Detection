@@ -1,0 +1,44 @@
+# Data (keep raw/external out of git; they can be large or restricted)
+data/raw/*
+data/external/*
+data/processed/*
+!data/**/.gitkeep
+
+# Models & checkpoints
+models/*
+!models/.gitkeep
+*.pt
+*.bin
+*.safetensors
+
+# Results artifacts (keep metrics csv, ignore big figures optionally)
+results/figures/*
+!results/figures/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Colab transfer artifacts
+colab_bundle.zip
+colab_outputs.zip
+
+# ---- Streamlit deployment: ship the small BiLSTM checkpoints + figures ----
+!models/bilstm_attn_full.pt
+!models/bilstm_attn_full_aug.pt
+!models/bilstm_attn_hinglish.pt
+!models/bilstm_attn_rp.pt
+!results/figures/
+!results/figures/*.png
+
+# ---- Privacy: never publish raw comment text / annotation data ----
+More_datasets/
+data/annotation/
+results/metrics/errors_*.csv

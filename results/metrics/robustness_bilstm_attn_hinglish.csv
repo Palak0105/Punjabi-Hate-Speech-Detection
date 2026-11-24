@@ -1,0 +1,9 @@
+perturbation,macro_f1,degradation,robustness_ratio
+clean,0.6534228517121923,0.0,1.0
+char_elongation,0.5971,0.0563,0.9138
+char_swap,0.6215,0.032,0.9511
+vowel_drop,0.6001,0.0533,0.9185
+spelling_variant,0.6523,0.0011,0.9983
+leet_noise,0.5649,0.0885,0.8645
+code_mix_inject,0.6534,0.0,1.0
+all,0.4026,0.2508,0.6162

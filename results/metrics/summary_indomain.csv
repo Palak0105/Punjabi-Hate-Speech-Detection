@@ -1,0 +1,5 @@
+model,full,hinglish,rp
+bilstm_attn,0.7524,0.6534,0.7165
+muril,0.7962,0.6816,0.7079
+xlmr,0.797,0.6944,0.6915
+indicbert,0.7845,0.699,0.7006

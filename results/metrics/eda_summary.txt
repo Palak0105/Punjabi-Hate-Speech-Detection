@@ -1,0 +1,28 @@
+=== EDA: training corpus ===
+rows: 13831
+
+class balance:
+label
+not_hate    7280
+hate        6551
+
+language mix:
+lang
+english     10523
+hinglish     3308
+
+text length (words):
+count    13831.00
+mean        32.33
+std         40.38
+min          1.00
+25%         11.00
+50%         19.00
+75%         35.00
+max        300.00
+
+top tokens skewed -> HATE:
+retard(27.8x), astir(26.7x), dumbass(25.6x), pine(24.4x), hvo(23.3x), wherefore(23.3x), ching(23.3x), embody(23.3x), iodine(22.2x), chong(22.2x), comprise(22.2x), faggots(21.1x), trans(21.1x), ace(20.0x), sexist(20.0x)
+
+top tokens skewed -> NOT_HATE:
+listed(56.7x), criteria(44.1x), notability(39.6x), description(34.2x), jpg(28.8x), consensus(28.3x), redirect(27.4x), context(27.0x), sections(25.2x), pillars(24.3x), afd(24.3x), manual(23.4x), citations(22.5x), tildes(22.5x), guideline(20.7x)

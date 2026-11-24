@@ -1,0 +1,23 @@
+# Core
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+tqdm>=4.66
+
+# Deep learning (install torch per your platform; on Colab it's preinstalled)
+torch>=2.2
+transformers>=4.44
+datasets>=2.20
+accelerate>=0.33
+sentencepiece>=0.2.0
+
+# Text / NLP utilities
+emoji>=2.12
+regex>=2024.5.15
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+
+# Notebook
+jupyter>=1.0
